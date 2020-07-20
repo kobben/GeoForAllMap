@@ -1,5 +1,3 @@
-// draggable globe adapted from http://bl.ocks.org/ivyywang/7c94cb5a3accd9913263
-
 // MATHS & HELPER FUNCTIONS
 
 var to_radians = Math.PI / 180;
@@ -100,7 +98,7 @@ function quat2euler(t){
 }
 
 /*  This function computes the euler angles when given two vectors, and a rotation
-	This is really the only math function called with d3 code.
+	This is  the only math function called from the  d3 code.
 
 	v0 - starting pos in lon/lat, commonly obtained by projection.invert
 	v1 - ending pos in lon/lat, commonly obtained by projection.invert
